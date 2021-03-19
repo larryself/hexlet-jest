@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node --experimental-vm-modules node_modules/jest/bin/jest",
     "jjj": "npx -n '--experimental-vm-modules --no-warnings' jest --colors",
-    "test": "npx jest"
+    "test": "npx jest --coverage"
   },
   "author": "larryself",
   "license": "ISC",
