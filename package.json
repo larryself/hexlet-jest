@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node --experimental-vm-modules node_modules/jest/bin/jest",
-    "test": "jest"
+    "jjj": "npx -n '--experimental-vm-modules --no-warnings' jest --colors",
+    "test": "npx jest"
   },
   "author": "larryself",
   "license": "ISC",
@@ -15,8 +16,10 @@
     "transform": {}
   },
   "devDependencies": {
+    "@jest/globals": "^26.6.2",
     "babel-plugin-transform-export-extensions": "^6.22.0",
     "babel-preset-stage-2": "^6.24.1",
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3"
   }
 }
