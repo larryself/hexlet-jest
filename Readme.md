@@ -1,2 +1,2 @@
 task hexlet - jest
-https://github.com/larryself/hexlet-jest/workflows/CI/badge.svg
+![Node.js CI](https://github.com/larryself/hexlet-jest/workflows/CI/badge.svg)
